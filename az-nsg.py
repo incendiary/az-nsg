@@ -115,17 +115,19 @@ def main():
     resource_groups_nsg_names = {
         "resourcegroup1":
             [
-                {"a-tier-nsg": ["10.0.0.0/24"],
-                 "b-tier-nsg": ["172.16.0.0/24"],
-                 "c-tier-nsg": ["192.168.0.0/24"],
-                 }
+                {
+                    "a-tier-nsg": ["10.0.0.0/24"],
+                    "b-tier-nsg": ["172.16.0.0/24"],
+                    "c-tier-nsg": ["192.168.0.0/24"],
+                }
             ],
         "resourcegroup2":
             [
-                {"x-tier-nsg": ["10.0.0.0/24"],
-                 "y-tier-nsg": ["172.16.0.0/24"],
-                 "z-tier-nsg": ["192.168.0.0/24"],
-                 }
+                {
+                    "x-tier-nsg": ["10.0.0.0/24"],
+                    "y-tier-nsg": ["172.16.0.0/24"],
+                    "z-tier-nsg": ["192.168.0.0/24"],
+                }
             ],
     }
 
